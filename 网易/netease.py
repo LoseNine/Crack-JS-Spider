@@ -73,6 +73,6 @@ class Netease:
 
 if __name__ == '__main__':
     username="losenine@163.com"
-    pwd='lyy218063'
+    pwd='123456'
     N=Netease(username,pwd)
     N.start()

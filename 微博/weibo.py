@@ -114,7 +114,7 @@ class WeiBo():
         self.login()
 
 if __name__ == '__main__':
-    username = '13520791099' # 微博账号
-    password = 'lyy218063' # 微博密码
+    username = '1234567899' # 微博账号
+    password = '123456' # 微博密码
     weibo = WeiBo(username,password)
     weibo.main()
