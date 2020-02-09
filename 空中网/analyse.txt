@@ -1,0 +1,4 @@
+1.eval混淆的代码先解析
+2.在JS中调用的JSON函数可能在返回的包
+而不再JS中，如下边的例子
+jsonpCallbackKongZ

@@ -1,0 +1,34 @@
+*su: MTM1MjA3OTEwOTk=
+servertime: 1581132671
+nonce: U7T2CN
+rsakv: 1330428213
+*sp: 1e5035c1f43ddb5950922e9b3220902739c27940223cf07c50b2a9e3a2eb30bc8aa1e11253e69e67c3ea0dfa1fff83933c9b846dd8211896422ace8ccab6b2b55f537b48b938d9a49f2e224e51a08859f6c08196f577522af4306e1acb76bcfb4709035a8e7f5b33f05ce8906576a5fc32994dbf71f83200f01c6fa7641df7b2
+prelt: 92
+
+1.nonce查找后发现直接返回，不用管
+2.prelt存在时间函数之中
+        me.preloginCallBack = function(a) {
+            if (a && a.retcode == 0) {
+                me.setServerTime(a.servertime);
+                me.nonce = a.nonce;
+                me.rsaPubkey = a.pubkey;
+                me.rsakv = a.rsakv;
+                pcid = a.pcid;
+                preloginTime = (new Date).getTime() - preloginTimeStart - (parseInt(a.exectime, 10) || 0)
+            }
+            typeof b == "function" && b(a)
+        }
+运行后缺少a.exectime
+我们可以发现a都是从me中获取，而me里有nonce，所以是直接返回的一个
+function test() {
+preloginTimeStart = (new Date).getTime();
+return (new Date).getTime() - preloginTimeStart - (parseInt(73, 10) || 0);
+}
+仔细查看发现仅仅是将数字十进制话，所以直接获取exectime就好
+3.sp
+var f = new sinaSSOEncoder.RSAKey;
+            f.setPublic(me.rsaPubkey, "10001");
+            b = f.encrypt([me.servertime, me.nonce].join("\t") + "\n" + b)
+密码经过了rsa公钥加密后就是b,一开始的b就是密码
+4.su就是用户名
+base64加密
