@@ -2300,7 +2300,7 @@ var passdata = {
 };
 
 function getpwd(pass) {
-var c = new JSEncrypt;
-c.setPublicKey(passdata.pass_key);
-return c.encrypt(pass)
+        var c = new JSEncrypt;
+        c.setPublicKey(passdata.pass_key);
+        return c.encrypt(pass)
 };
