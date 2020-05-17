@@ -5,6 +5,8 @@
  - [ ] 整理破解过的JS代码，包装成库，方便调用
  - [x] B站登录——password
  - [x] 房天下登录——password
+ - [x] 淘宝登录——password
+ - [x] 天安保险登录——password
  
 #### 2019年已完成
  - [x] 微博登录
