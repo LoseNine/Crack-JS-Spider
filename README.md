@@ -1,5 +1,7 @@
 # crack-JS-crawl
-破解python爬虫过程中遇到的JS加密问题，只获取关键的JS加密参数
+破解python爬虫过程中遇到的JS加密问题
+
+微信公众号：No-Attack   发布Xposed,Frida等App协议分析与JS解密
 
 
 #### 2020年已完成
