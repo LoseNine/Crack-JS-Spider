@@ -1,12 +1,15 @@
 # crack-JS-crawl
 破解python爬虫过程中遇到的JS加密问题，只获取关键的JS加密参数
 
+
 #### 2020年已完成
  - [x] B站登录——password
  - [x] 房天下登录——password
  - [x] 淘宝登录——password
  - [x] 天安保险登录——password
  - [x] QQ音乐——sign
+ - [x] 一键解析——sojson调试
+ - [x] 财联社——password
  
 #### 2019年已完成
  - [x] 微博登录
@@ -23,3 +26,4 @@
 
 ####
 - 获取关键参数的JS代码
+
