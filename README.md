@@ -1,7 +1,9 @@
 # crack-JS-crawl
 破解python爬虫过程中遇到的JS加密问题
 
-微信公众号：`No-Attack`
+### 发布JS破解，App协议分析，Xposed和Frida教程
+![](https://mmbiz.qpic.cn/mmbiz_jpg/PAFHVZCvStuRWU5jDNFTPzxURY7dXaDpzwlb3YW6hW6KgjtbVgicfwKtoqaoNSGBIfYoZeqic1NkJtibU1Cs9WVBQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
 
 ## 教程[《反爬虫JS安全防护与逆向分析手册》](https://github.com/LoseNine/Restore-JS)
 ### 用于学习Chrome调试技巧，JS解密与代码AST混淆还原的教程。
