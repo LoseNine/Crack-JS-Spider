@@ -1,7 +1,8 @@
 # crack-JS-crawl
 破解python爬虫过程中遇到的JS加密问题
 
-# 对JS破解和爬虫逆向感兴趣的同学可以购买数据《反爬虫AST原理与还原混淆实战》，淘宝，京东，当当全网有售，相信会对大家有所帮助！
+# 对JS破解和爬虫逆向感兴趣的同学
+# 《反爬虫AST原理与还原混淆实战》，淘宝，京东，当当全网有售，相信会对大家有所帮助！
 
 ### 发布JS破解，App协议分析，Xposed和Frida教程
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/PAFHVZCvStuRWU5jDNFTPzxURY7dXaDpzwlb3YW6hW6KgjtbVgicfwKtoqaoNSGBIfYoZeqic1NkJtibU1Cs9WVBQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
