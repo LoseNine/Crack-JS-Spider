@@ -11,8 +11,16 @@
 ## 教程[《反爬虫JS安全防护与逆向分析手册》](https://github.com/LoseNine/Restore-JS)
 ### 用于学习Chrome调试技巧，JS解密与代码AST混淆还原的教程。
 
+### b站免费教学视频https://space.bilibili.com/534838862?from=search&seid=11383140716186249687
 
-
+#### 2022年（报名逆向联系QQ24358757）
+ - [x] 拼多多——anti_content（补环境已注释）
+ - [x] Boss直聘——zp_token（补环境已注释）
+ - [x] QQ音乐——sign
+ - [x] 酷狗——kg_mid/dfid
+ - [x] 唯品会——mars_cid
+ - [x] 知乎——x-zse-96 
+ 
 #### 2020年已完成
  - [x] B站登录——password
  - [x] 房天下登录——password
