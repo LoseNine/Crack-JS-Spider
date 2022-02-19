@@ -21,6 +21,7 @@
  - [x] 酷狗——kg_mid/dfid
  - [x] 唯品会——mars_cid
  - [x] 知乎——x-zse-96 
+ - [x] 极验——滑块w
  
 #### 2020年已完成
  - [x] B站登录——password
