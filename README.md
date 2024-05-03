@@ -5,17 +5,10 @@
 # 《反爬虫AST原理与还原混淆实战》，淘宝，京东，当当全网有售，相信会对大家有所帮助！
 #  新书《Android应用安全实战》机械工业出版社，全网有售！
 
-### 发布JS破解，App协议分析，Xposed和Frida教程
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PAFHVZCvStuRWU5jDNFTPzxURY7dXaDpzwlb3YW6hW6KgjtbVgicfwKtoqaoNSGBIfYoZeqic1NkJtibU1Cs9WVBQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-
 ## 教程[《反爬虫JS安全防护与逆向分析手册》](https://github.com/LoseNine/Restore-JS)
 ### 用于学习Chrome调试技巧，JS解密与代码AST混淆还原的教程。
 
-### b站免费教学视频（小肩膀）https://space.bilibili.com/534838862?from=search&seid=11383140716186249687
-### https://space.bilibili.com/172381477?spm_id_from=333.1007.0.0
-
-#### 2022年（报名逆向联系QQ24358757）
+#### 2022年
  - [x] 拼多多——anti_content（补环境已注释）
  - [x] Boss直聘——zp_token（补环境已注释）
  - [x] QQ音乐——sign
